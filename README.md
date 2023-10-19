@@ -1,4 +1,4 @@
-# Make VMWare 17 Workstatin Pro work on Ubuntu 23.10
+# Make VMWare 17 Workstation Pro work on Ubuntu 23.10
 
 1.- Navigate to the directory /usr/lib/vmware/modules/source/
 ```
