@@ -31,8 +31,13 @@ cd vmnet-only
 ```
 8.- Open the file bridge.c and add the include "#include <net/gso.h>" bellow line 46
 
+9.- Compile vmnet module:
+```
+sudo make
+```
 9.- Return to the main directory (/usr/lib/vmware/modules/source/) and execute:
 ```
+cd ..
 sudo cp vmmon.o /lib/modules/`uname -r`/kernel/drivers/misc/vmmon.ko
 sudo cp vmnet.o /lib/modules/`uname -r`/kernel/drivers/misc/vmnet.ko
 sudo depmod -a
