@@ -35,7 +35,7 @@ cd vmnet-only
 ```
 sudo make
 ```
-9.- Return to the main directory (/usr/lib/vmware/modules/source/) and execute:
+10.- Return to the main directory (/usr/lib/vmware/modules/source/) and execute:
 ```
 cd ..
 sudo cp vmmon.o /lib/modules/`uname -r`/kernel/drivers/misc/vmmon.ko
