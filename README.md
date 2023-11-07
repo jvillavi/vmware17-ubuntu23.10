@@ -24,6 +24,7 @@ sudo make
 6.- Return to the main directory (/usr/lib/vmware/modules/source/)
 ```
 cd ..
+sudo make
 ```
 7.- Get inside the folder vmnet-only:
 ```
