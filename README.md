@@ -1,5 +1,9 @@
 # Make VMWare 17 Workstation Pro work on Ubuntu 23.10
 
+Either run the script "compile_modules.sh" or follow this guide stepo by step:
+
+Feel free to improve my script if you want to do so
+
 1.- Navigate to the directory /usr/lib/vmware/modules/source/
 ```
 cd /usr/lib/vmware/modules/source/
